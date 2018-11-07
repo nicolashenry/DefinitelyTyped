@@ -1151,7 +1151,7 @@ declare module "http" {
         'via'?: string;
         'warning'?: string;
         'www-authenticate'?: string;
-        [header: string]: string | string[] | undefined;
+        [header: string]: string | undefined;
     }
 
     // outgoing headers allows numbers (as they are converted internally to strings)
